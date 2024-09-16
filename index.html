@@ -25,7 +25,7 @@
         </div>
     </nav>
 
-    <!-- Hamburger Menu Box-->
+    <!-- Menu -->
     <nav id="hamburger-nav">
         <div class="logo"> Kevin Kiely</div>
         <div class="hamburger-menu">
@@ -35,16 +35,313 @@
                 <span></span>
             </div>
             <div class="menu-links">
-                    <li> <a href="#about" onclick="toggleMenu()"> About</a></li>
-                    <li> <a href="#experience" onclick="toggleMenu()"> Experience</a></li>
-                    <li> <a href="#projects" onclick="toggleMenu()"> Projects</a></li>
-                    <li> <a href="#contact" onclick="toggleMenu()"> Contact</a></li>
+                <li> <a href="#about" onclick="toggleMenu()"> About</a></li>
+                <li> <a href="#experience" onclick="toggleMenu()"> Experience</a></li>
+                <li> <a href="#projects" onclick="toggleMenu()"> Projects</a></li>
+                <li> <a href="#contact" onclick="toggleMenu()"> Contact</a></li>
             </div>
         </div>
-    
     </nav>
 
+    <!-- Profile Section-->
+    <hr>
+    <section id="profile">
+        <div class="section-pic-container">
+            <img src="./Assets/LinkedIn Photo.jpg" alt="Kevin Kiely profile picture" class="about-pic">
+        </div>
 
+        <div class="section-text">
+            <p class="section-text-p1"> Hello, I'm</p>
+            <h1 class="title"> Kevin Kiely</h1>
+            <p class="section-text-p2"> Fullstack MERN Developer</p>
+
+            <!-- Buttons -->
+            <div class="btn-container">
+
+                <button class="btn btn-color-2" onclick="window.open('./Assets/Kevin_Kiely_Resume.pdf')"> Download CV
+                </button>
+
+                <button class="btn btn-color-1" onclick="location.href='./#contact'"> Contact Info
+                </button>
+
+            </div>
+
+            <!-- -->
+            <div id="socials-container">
+                <img src="./Assets//linkedin.png" alt="My LinkedIn Profile" class="icon"
+                    onclick="location.href='https://www.linkedin.com/in/kevin-kiely-817632aa/'" />
+
+                <img src="./Assets//github.png" alt="My Github Profile" class="icon"
+                    onclick="location.href='https://github.com/KevinKiely'">
+
+            </div>
+
+
+        </div>
+    </section>
+
+    <!-- About Section -->
+     <hr>
+    <section id="about">
+        <p class="section-text-p1"> Get To Know More</p>
+        <h1 class="title"> About Me </h1>
+        <div class="section-container">
+            <div class="section-pic-container">
+                <img src="./Assets/Portrait.png" alt="Profile Picture" class="about-pic" />
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+
+                    <div class="details-container">
+                        <img src="./Assets/experience.png" alt="Experience icon" class="icon" />
+                        <h3> Experience </h3>
+                        <p> 1 Year <br /> Fullstack Development</p>
+                    </div>
+
+                    <div class="details-container">
+                        <img src="./Assets/education.png" alt="Experience icon" class="icon" />
+                        <h3> Education </h3>
+                        <p> Certificate of Completion: UNH Coding Boot Camp <br /> Bachelors of Exercise Science, UMASS
+                            Lowell</p>
+                    </div>
+                </div>
+
+
+                <div class="text-container">
+                    <p>
+                        Im a growing software developer who has recently entered the field, and am looking for an opportunity to prove myself at a strong company!  I was previously a graduate student studying Physical Therapy, but decided to change to a career that was better suited for my skill sets and personality. After deciding to change careers, I attended the University of New Hampshire fullstack coding bootcamp. That is where I developed strong foundational skills in Javascript, HTML, CSS, Nodejs, Express, SQL, MongoDB, React, and several other disciplines. 
+	Since graduating from the bootcamp I have continued to improve on the skills I have acquired, and am constantly learning new ones. I have a naturally curious mind, enjoy logical problem solving, and always see tasks through to completion. In my free time I enjoy MMA, hiking, chess, and D&D. I am hoping to begin my career in a collaborative environment where I can learn from industry professionals and grow as a developer!
+
+                    </p>
+                </div>
+            </div>
+        </div>
+        <img src="./Assets/arrow.png" alt="Arrow" class="icon arrow" onclick="location.href='./#experience'" />
+
+    </section>
+
+    <!-- Experience Section -->
+     <hr>
+    <section id="experience">
+        <p class="section-text-p1"> Explore My </p>
+        <h1 class="title"> Experience</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+
+                <div class="details-container">
+                    <h2 class="experience-sub-title"> Frontend Development</h2>
+                    <div class="article-container">
+                        <!-- LIST OF FULLSTACK SKILLS-->
+
+                        <article>
+                            <img src="./Assets//checkmark.png" alt="Experience Icon" class="icon" />
+                            <div>
+                                <h3> HTML </h3>
+                                <p> 1+ Year</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <img src="./Assets//checkmark.png" alt="Experience Icon" class="icon" />
+                            <div>
+                                <h3> CSS </h3>
+                                <p> 1+ Year</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <img src="./Assets//checkmark.png" alt="Experience Icon" class="icon" />
+                            <div>
+                                <h3> Javascript </h3>
+                                <p> 1+ Year</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <img src="./Assets//checkmark.png" alt="Experience Icon" class="icon" />
+                            <div>
+                                <h3> React </h3>
+                                <p> 1+ Year</p>
+                            </div>
+                        </article>
+
+
+                    </div>
+                </div>
+
+                <div class="details-container">
+                    <h2 class="experience-sub-title"> Backend Development</h2>
+                    <div class="article-container">
+                        <!-- LIST OF FULLSTACK SKILLS-->
+
+
+                        <article>
+                            <img src="./Assets//checkmark.png" alt="Experience Icon" class="icon" />
+                            <div>
+                                <h3> SQL </h3>
+                                <p> 1+ Year</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./Assets//checkmark.png" alt="Experience Icon" class="icon" />
+                            <div>
+                                <h3> MongoDB </h3>
+                                <p> 1+ Year</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./Assets//checkmark.png" alt="Experience Icon" class="icon" />
+                            <div>
+                                <h3> Express </h3>
+                                <p> 1+ Year</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <img src="./Assets//checkmark.png" alt="Experience Icon" class="icon" />
+                            <div>
+                                <h3> Node.js </h3>
+                                <p> 1+ Year</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <img src="./Assets//checkmark.png" alt="Experience Icon" class="icon" />
+                            <div>
+                                <h3> Git </h3>
+                                <p> 1+ Year</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+        <img src="./Assets/arrow.png" alt="Arrow" class="icon arrow" onclick="location.href='./#projects'" />
+
+    </section>
+
+    <!-- Projects-->
+     <hr>
+    <section id="projects">
+        <p class="section-text-p1"> Browse my most recent</p>
+        <h1 class="title"> Projects</h1>
+
+        <div class="experience-details-container">
+        <div class="about-containers">
+
+            <!-- PROJECT ONE-->
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./Assets/Coming-Soon.JPG" alt="Project 1" class="project-img" />
+                </div>
+                <h2 class="experience-sub-title project-title"> Coming Soon! </h2>
+                <div class="btn-container">
+                    <!-- Link to Github -->
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com'">
+                        Github
+                    </button>
+                    <!-- Link to Live Demo/Website-->
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com'">
+                        Live Demo
+                    </button>
+                </div>
+            </div>
+
+            <!-- PROJECT TWO -->
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./Assets/Date-Advisor.JPG" alt="Project 1" class="project-img" />
+                </div>
+                <h2 class="experience-sub-title project-title"> Date Advisor </h2>
+                <div class="btn-container">
+                    <!-- Link to Github -->
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/KevinKiely/Date-Advisor'">
+                        Github
+                    </button>
+                    <!-- Link to Live Demo/Website-->
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://kevinkiely.github.io/Date-Advisor/'">
+                        Live Demo
+                    </button>
+                </div>
+            </div>
+
+            <!-- PROJECT THREE-->
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./Assets/weather-app-thumbnail.jpg" alt="Project 1" class="project-img" />
+                </div>
+                <h2 class="experience-sub-title project-title"> Weather Forecast App </h2>
+                <div class="btn-container">
+                    <!-- Link to Github -->
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com'">
+                        Github
+                    </button>
+                    <!-- Link to Live Demo/Website-->
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://kevinkiely.github.io/Weather-Forecast-App/'">
+                        Live Demo
+                    </button>
+                </div>
+            </div>
+
+             
+
+        </div>
+        </div>
+        <img src="./Assets/arrow.png" alt="Arrow" class="icon arrow" onclick="location.href='./#projects'" />
+    </section>
+
+    <!-- Contact-->
+     <hr>
+    <section id="contact">
+
+        <p class="section-text-p1"> Get in Touch</p>
+        <h1 class="title"> Contact Me</h1>
+
+       
+        <div class="contact-info-upper-container">
+            <!-- Email -->
+            <div class="contact-info-container">
+                <img src="./Assets/email.png" alt="Email Icon" class="icon contact-icon email-icon" />
+                <p> <a href="mailto:kevinkiely762@gmail.com"> Kevinkiely762@gmail.com </a></p>
+            </div>
+
+             <!-- Linkedin-->
+             <div class="contact-info-container">
+                <img src="./Assets/linkedin.png" alt="LinkedIn Icon" class="icon contact-icon"/>
+
+                <p> <a onclick="location.href='https://www.linkedin.com/in/kevin-kiely-817632aa/'"> LinkedIn</a></p>
+            </div>
+
+
+
+            <!-- Phone Number-->
+            <div class="contact-info-container">
+                <img src="./Assets/checkmark.png" alt="Phone Number" class="icon contact-icon" />
+                <p> 978-806-1370 </p>
+            </div>
+
+        </div>
+
+       
+
+    </section>
+
+    <!-- Footer-->
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li> <a href="#about"> About</a></li>
+                    <li> <a href="#experience"> Experience</a></li>
+                    <li> <a href="#projects"> Projects</a></li>
+                    <li> <a href="#contact"> Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p> Copyright &#169; 2024 Kevin Kiely. All Rights Reserved </p>
+    </footer>
 
     <script src="script.js"></script>
 </body>
